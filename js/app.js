@@ -24,7 +24,7 @@ $(document).ready(function () {
       headers: {
         "content-type": "application/json",
       },
-      body: JSON.stringify({ name, email }), // Ensure you send valid data
+      body: JSON.stringify({ name, email }), 
     });
 
     const data = await response.json();
